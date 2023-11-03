@@ -1,0 +1,23 @@
+.app {
+  background-color: #dadbd3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appBody {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 90vh;
+  width: 90vh;
+  box-shadow: -5px 5px 15px 5px #7b757591;
+}
+
+.sideBar {
+  border: 2px solid black;
+}
+
+.chatRoom {
+  border: 2px solid black;
+  height: 100%;
+}

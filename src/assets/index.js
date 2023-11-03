@@ -1,0 +1,1 @@
+export {default as whatsAppLogo} from './logos/whatsapp-icon.svg';

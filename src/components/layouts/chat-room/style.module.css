@@ -1,0 +1,77 @@
+.chat__room__body {
+  padding: var(--boundary-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+/***************************************Header******************************************************/
+.chatRoomHeader__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.chatRoomHeader__info {
+  display: flex;
+  gap: var(--text-padding);
+}
+.contact__name {
+  font-weight: bold;
+}
+
+/***************************************Chat Body****************************************************/
+
+.chat__body {
+  border: 2px solid red;
+  flex: 1;
+  padding: var(--boundary-padding);
+}
+
+.chat__message {
+  position: relative;
+  width: fit-content;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.chat__sender {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  font-size: xx-small;
+  font-weight: 800;
+}
+.chat__timestamp {
+  font-size: xx-small;
+  color: grey;
+}
+
+.char_receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+/***************************************Input******************************************************/
+
+.chat__input__body {
+  display: flex;
+  align-items: center;
+}
+
+.chat__input__body > form {
+  display: flex;
+  flex: 1;
+}
+.chat__input__body > form > input {
+  flex: 1;
+  height: 1.8rem;
+  border: none;
+  border-radius: 50px;
+}
+.chat__input__body > form > button {
+  display: none;
+}
